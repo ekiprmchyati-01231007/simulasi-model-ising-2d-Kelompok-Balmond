@@ -15,4 +15,4 @@ Repository ini dibuat oleh **Kelompok Balmond** untuk memenuhi tugas mata kuliah
 ## 🔗 Hasil Pengerjaan Tugas
 
 Hasil pengerjaan tugas dapat diakses melalui link berikut:
-* **Halaman Laporan Utama:** [nanti di isi sendiri]
+* **Halaman Laporan Utama:** [Klik di sini untuk melihat laporan](https://ekiprmchyati-01231007.github.io/simulasi-model-ising-2d-Kelompok-Balmond/)
