@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Simulasi Model Ising 2D - Kelompok Balmond</title>
+    <style>
+        :root {
+            /* Tema Terang Menyesuaikan Hasil Ekspor Jupyter Notebook */
+            --bg-color: #ffffff;
+            --card-bg: #f8fafc;
+            --border-color: #e2e8f0;
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --accent: #f37626; /* Oranye khas Jupyter */
+            --accent-hover: #307fc1; /* Biru khas Jupyter */
+        }
+        body {
+            font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            color: var(--accent);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .intro {
+            text-align: left;
+            margin-bottom: 2.5rem;
+            color: var(--text-secondary);
+        }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        .report-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 1.5rem;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease-in-out;
+        }
+        .report-link:hover {
+            border-color: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(48, 127, 193, 0.1);
+        }
+        .report-link span.temp {
+            font-family: monospace;
+            background: rgba(243, 118, 38, 0.1);
+            color: var(--accent);
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: 4rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simulasi Model Ising 2D</h1>
+        <div class="meta">
+            <strong>Kelompok:</strong> Balmond <br>
+            <strong>Anggota:</strong> 1. Eki Permata Cahya Hati (01231007) | 2. Melky Juli Kurniawan Silalahi (01231010) | 3. Yustiara Sampe Manggoali (01231019)
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>Selamat datang di halaman publikasi portofolio simulasi Model Ising 2 dimensi menggunakan algoritma Monte Carlo Metropolis. Di bawah ini terdapat tautan menuju tiga laporan kasus simulasi dengan kondisi termodinamika suhu yang berbeda:</p>
+        </section>
+
+        <div class="links-container">
+            <a href="Kasus_1_Suhu_Rendah.html" class="report-link">
+                <span>Kasus 1: Fase Feromagnetik</span>
+                <span class="temp">T = 1.0</span>
+            </a>
+            <a href="Kasus_2_Suhu_Kritis.html" class="report-link">
+                <span>Kasus 2: Transisi Fasa & Kritikalitas</span>
+                <span class="temp">T = 2.27</span>
+            </a>
+            <a href="Kasus_3_Suhu_Tinggi.html" class="report-link">
+                <span>Kasus 3: Fase Paramagnetik</span>
+                <span class="temp">T = 4.0</span>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kelompok Balmond. Dibuat untuk memenuhi Tugas Fisika Komputasi.</p>
+    </footer>
+</body>
+</html>
